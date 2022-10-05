@@ -1,0 +1,9 @@
+//control statements start
+// if statement is true excute first block
+$age=30;
+if($age>18){
+    echo " the person is eligible for applying jobs";
+}
+else{
+    echo"the person not eligible";
+}
