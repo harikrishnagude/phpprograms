@@ -1,0 +1,16 @@
+<?php 
+//conditional  statements start
+// switch statement
+$a=100;
+switch($a){
+case 50:
+    echo"the number is 50";
+    break;
+case 100:
+    // can use print replace of echo it gives output
+    print"the number is 100";
+    break;
+
+}
+
+?>
