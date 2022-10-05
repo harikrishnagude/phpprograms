@@ -1,0 +1,16 @@
+<?php 
+//control statements start
+// if statement
+$age=25;
+if($age<18){
+    echo " the person is not eligible for applying jobs";
+}
+elseif($age>=18)
+{
+    echo" the person will start applying jobs ";
+}
+else{
+    echo"the person not eligible";
+}
+
+?>
