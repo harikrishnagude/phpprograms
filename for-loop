@@ -1,0 +1,11 @@
+<?php 
+//control  statements start
+// loops:-repetition of a sequence of instruction to reach a certain condition 
+// for loop
+for($b=0;$b<10;$b++)
+{
+    echo $b;
+    echo"<br>";
+
+}
+?>
