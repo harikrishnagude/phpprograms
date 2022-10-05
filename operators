@@ -1,0 +1,46 @@
+<?php
+$x=20;
+$y=10;
+// can use print or echo
+echo"addition is " .$val=((int)$x +(int)$y);
+echo"<br>";
+// if normally doesnt excute use these in place of $x+$y
+print "the subtraction is ".$val=((int)$x - (int)$y)."<br>";
+print "the multiplication is " .$x*$y."<br>";
+print "the division is " .$x/$y."<br>";
+print "the modulas is " .$x%$y;
+echo"<br>";
+// assignment operator
+$a=$x;
+$b=$y;
+$a+=20;// $a=$a+20
+echo"the value is " .$a;
+echo"<br>";
+$b-=5;//$b=$b-5
+echo $b;
+echo"<br>";
+$b*=5;//$b=$b*5
+echo $b;
+echo"<br>";
+$a/=5;//$a=$a/5
+echo $a;
+// increment and decrement operator
+echo"<br>";// for break to next line 
+$k=100;
+$k++;
+echo $k;
+echo"<br>";
+$k=100;
+$k--;
+echo $k;
+// post increment and post decrement
+echo"<br>";
+$k=1000;
+echo $k++;
+echo"<br>";
+echo $k;
+echo"<br>";
+echo $k--;
+echo"<br>";
+echo $k;
+?>
