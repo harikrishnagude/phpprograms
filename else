@@ -1,3 +1,4 @@
+<?php
 //control statements start
 // if statement false exucute second block
 $age=15;
@@ -7,3 +8,4 @@ if($age>18){
 else{
     echo"the person not eligible";
 }
+?>
