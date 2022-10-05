@@ -1,0 +1,14 @@
+<?php
+// types of datatypes starts
+echo "welcome to my new world"."<br>";
+$var1=100;
+$var2="harikrishna";
+$var3=50.50;
+echo $var1."<br>", $var2."<br>" ,$var3."<br>" ;
+// print the type of data types
+echo var_dump($var1); 
+echo"<br>";
+echo var_dump($var2);
+echo"<br>";
+echo var_dump($var3);
+?>
