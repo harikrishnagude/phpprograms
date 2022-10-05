@@ -1,0 +1,13 @@
+<?php 
+//control  statements start
+// loops:-repetition of a sequence of instruction to reach a certain condition 
+// while loop
+$k=90;
+while($k<100)
+{
+    echo $k;
+    echo"<br>";
+    $k++;
+
+}
+?>
