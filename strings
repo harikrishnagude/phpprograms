@@ -1,0 +1,9 @@
+<?php
+// strings
+$x=" hari krishna";
+echo strlen($x);// to find lenth of string
+echo"<br>";
+echo str_word_count($x);// to find words in a string
+echo"<br>";
+echo strrev($x);// reversing of a string
+?>
