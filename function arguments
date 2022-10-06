@@ -1,0 +1,13 @@
+<?php
+// function is a block of code on invoking or calling 
+// function arguments
+// information can passed in function through arguments
+function brand($car_name)
+{
+echo " the car brand is  $car_name<br>";
+}
+brand("AUDI");
+brand("BMW");
+brand("TATA");
+
+?>
