@@ -1,0 +1,14 @@
+<?php
+// function is a block of code on invoking or calling 
+// call by value
+// actual value is not changed even though there is any modification inside function
+// changes will be done in local variable
+function name($k)
+{
+   $a="krishna"; 
+}
+$h="hari krishna";
+name($h);
+echo $h;
+
+?>
