@@ -1,0 +1,11 @@
+<?php
+/* Array is collection of more than one value in a single variable
+-> Each element in array has a distinct index
+-> Any elements in an array can be accessed  through indexing 
+-> Function that is used to create an array in php in array() function
+*/
+// multi dimensional array is Array of arrays
+// can be represented in matrix form 
+$x= array(array("krishna","arjuna","bhima"),array("rama","laxmana","hanuma"),array("bramha","vishnu","parameshvara"));
+print_r($x);
+?>
