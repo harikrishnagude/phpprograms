@@ -1,0 +1,14 @@
+<?php
+// function is a block of code on invoking or calling 
+// call by reference
+// actual value is modified even if there is any modification inside function
+
+function name(&$a)// small diffirence is by add & symbol in call by reference
+{
+   $a="krishna"; 
+}
+$h="hari krishna";
+name($h);
+echo $h;
+
+?>
