@@ -1,0 +1,13 @@
+<?php
+/* Array is collection of more than one value in a single variable
+-> Each element in array has a distinct index
+-> Any elements in an array can be accessed  through indexing 
+-> Function that is used to create an array in php in array() function
+-> count()function gives the number of elements present in an array.
+*/
+$x= array("hari","krishna","mohith","vamsi");
+$y = array(100,200,300,400);
+echo $y[1];
+echo "<br>";
+echo $x[1];
+?>
