@@ -1,0 +1,21 @@
+<?php
+/* Array is collection of more than one value in a single variable
+-> Each element in array has a distinct index
+-> Any elements in an array can be accessed  through indexing 
+-> Function that is used to create an array in php in array() function
+-> count()function gives the number of elements present in an array.
+*/
+// associative array : elements are associated with => symbol
+// first way of associative array 
+$score["hari"]=99;
+$score["krishna"]=100;
+$score["mohith"]=98;
+echo $score["krishna"];
+echo" is the score of krishna <br>";
+echo $score["hari"];
+echo" is the score of hari<br>";
+echo $score["mohith"];
+echo "is the score of mohith <br>";
+// second way 
+echo " the score obtained by krishna is ".$score["krishna"];
+?>
