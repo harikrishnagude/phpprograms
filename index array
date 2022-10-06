@@ -10,4 +10,7 @@ $y = array(100,200,300,400);
 echo $y[1];
 echo "<br>";
 echo $x[1];
+echo "<br>";
+//count() function gives the number of elements present in an array 
+echo count($x); // number of elements present in array 
 ?>
