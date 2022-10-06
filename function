@@ -1,0 +1,14 @@
+<?php
+// function is a block of code on invoking or calling 
+/* syntax
+ function function_name()
+{
+    // statements
+}*/
+function krishna()
+{
+echo " welcome to my github account";
+}
+krishna();
+
+?>
